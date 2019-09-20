@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a8a513-9a54-4179-8f8c-f0d8493486a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JobApp/JobApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JobApp/JobApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JobApp/Jobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JobApp/Jobs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JobApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JobApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Jobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jobs.java" afterDir="false" />
     </list>
@@ -24,10 +20,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JobApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="325">
+              <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2307#2315#0" expanded="true" />
+                <element signature="e#2387#2395#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,11 +53,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Jobs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            <state relative-caret-position="324">
+              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
               <folding>
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Person.java" />
         <option value="$PROJECT_DIR$/src/Description.java" />
-        <option value="$PROJECT_DIR$/src/Jobs.java" />
         <option value="$PROJECT_DIR$/src/JobApp.java" />
+        <option value="$PROJECT_DIR$/src/Jobs.java" />
       </list>
     </option>
   </component>
@@ -177,12 +177,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568985683579</updated>
       <workItem from="1568985694562" duration="4742000" />
-      <workItem from="1568991086083" duration="10119000" />
+      <workItem from="1568991086083" duration="13469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14861000" />
+    <option name="totallyTimeSpent" value="18211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -253,21 +253,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Jobs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="324">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
           <folding>
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JobApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        <state relative-caret-position="325">
+          <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2307#2315#0" expanded="true" />
+            <element signature="e#2387#2395#0" expanded="true" />
           </folding>
         </state>
       </provider>

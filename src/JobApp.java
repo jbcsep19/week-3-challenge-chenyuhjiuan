@@ -20,6 +20,7 @@ import com.sun.org.apache.bcel.internal.generic.ANEWARRAY;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class JobApp {
@@ -66,9 +67,11 @@ public class JobApp {
                 //Description description=new Description();
                 System.out.printf("May you describe anything about this job?");
                 String descrip = sc.nextLine();
-                String descripStr[]=Arrays.asList(descrip).toArray(new String[0]);
-                job.setDescriptions(descripStr);
-                jobs.add(job);
+                List<String> list = new ArrayList<String>(Arrays.asList("hello"));
+                List<String> al= new ArrayList<String>(Arrays.asList(descrip));
+                al=Arrays.asList(descrip);
+                for(String s:al)
+                job.setDescriptions(al);
 
                 System.out.printf("Do you want to talk more about this company? (y/n)");
                 String decrip1= sc.nextLine();

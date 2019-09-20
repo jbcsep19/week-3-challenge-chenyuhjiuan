@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Jobs {
@@ -7,19 +8,13 @@ public class Jobs {
     private String title;
     private String startdate;
     private String enddate;
-    private String descriptions[]= new String[0];
+    private List<String> descriptions= new ArrayList<>();
     //private String descriptions;
 
     public Jobs() {
     }
 
-    public Jobs(String company, String title, String startdate, String enddate, String descriptions[]) {
-        this.company = company;
-        this.title = title;
-        this.startdate = startdate;
-        this.enddate = enddate;
-        this.descriptions = descriptions;
-    }
+
 
     public String getCompany() {
         return company;
@@ -53,14 +48,11 @@ public class Jobs {
         this.enddate = enddate;
     }
 
-
-    public String[] getDescriptions() {
-
-
+    public List<String> getDescriptions() {
         return descriptions;
     }
 
-    public void setDescriptions(String[] descriptions) {
+    public void setDescriptions(List<String> descriptions) {
         this.descriptions = descriptions;
     }
 
