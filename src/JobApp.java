@@ -58,6 +58,10 @@ public class JobApp {
             String enddate=sc.nextLine();
             job.setEnddate(enddate);
 
+
+            jobs.add(job);
+
+            //a sub while loop
             while (true) {
                 //Description description=new Description();
                 System.out.printf("May you describe anything about this job?");
@@ -71,10 +75,6 @@ public class JobApp {
                 if(decrip1.equalsIgnoreCase("n"))
                     break;
             }
-            jobs.add(job);
-
-            //a sub while loop
-
             /*Jobs j=new Jobs();
             for(Jobs desc:j.getDescriptions()){
                 String descS=desc.displaytxt();}*/
@@ -92,13 +92,13 @@ public class JobApp {
         int count=1;
 
 
-                    System.out.println("The job " + count);
+
                 for (Jobs j : jobs) {
                     System.out.println(j.displayJob());
-                    count++;
+
                 }
 
-
+        count++;
 
     }
 }
